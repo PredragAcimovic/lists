@@ -108,3 +108,30 @@ message = f"Hello, {guests[4].title()}, im sorry but i cant invite you."
 print(message)
 message = f"Hello, {guests[5].title()}, im sorry but i cant invite you."
 print(message)
+message = f"Hello, {guests[0].title()}, you are still invited!"
+print(message)
+message = f"Hello, {guests[1].title()}, you are still invited!"
+print(message)
+#organizing a list
+#sorting a list permanently with the sort() method
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+#sorting a list temporaily with the sorted() function 
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+#printing a list in reverse order
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+cars = ['bmw', 'audi', 'toyota', 'subaru',]
+len(cars)
