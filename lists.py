@@ -133,5 +133,30 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 cars.reverse()
 print(cars)
-cars = ['bmw', 'audi', 'toyota', 'subaru',]
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 len(cars)
+print(len(cars))
+#3-8
+place = ['france', 'italy', 'egypt', 'russia', 'india']
+print(place)
+place.reverse()
+print(place)
+print(sorted(place))
+len(place)
+print(len(place))
+#avoiding index errors when working with lists
+motorcycles= ['honda', 'yamaha', 'suzuki']
+print(motorcycles[-1])
+#working with list
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+	print(magician)
+#doing more work within a for loop
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+	print(f"{magician.title()}, that was a great trick!")
+	print(f"I can't wait to specialized your next trick, {magician.title()}.\n")
+print("Thank you, everyone. That was a great magic show!")
